@@ -3,9 +3,18 @@
 
 <head>
 	<meta charset="utf-8">
+
 	<title>San Joaquin Valley Town Hall</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="styles/c8_main.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#nav_menu").slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>
 </head>
 
 <body>
@@ -66,18 +75,20 @@
 		</section>
 		<aside>
 			<h2>Guest speakers</h2>
-			<h3>October<br><a href="speakers/brancaccio.html">David Brancaccio</a></h3>
-			<img src="images/brancaccio75.jpg" alt="David Brancaccio photo">
-			<h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
-			<img src="images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
-			<h3>January<br><a href="speakers/chua.html">Amy Chua</a></h3>
-			<img src="images/chua75.jpg" alt="Amy Chua photo">
-			<h3>February<br><a href="speakers/c7_sampson.html">Scott Sampson</a></h3>
-			<img src="images/sampson75.jpg" alt="Scott Sampson photo">
+			<div id="speaker-cols">
+				<h3>October<br><a href="speakers/brancaccio.html">David Brancaccio</a></h3>
+				<img src="images/brancaccio75.jpg" alt="David Brancaccio photo">
+				<h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
+				<img src="images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
+				<h3>January<br><a href="speakers/chua.html">Amy Chua</a></h3>
+				<img src="images/chua75.jpg" alt="Amy Chua photo">
+				<h3>February<br><a href="speakers/c7_sampson.html">Scott Sampson</a></h3>
+				<img src="images/sampson75.jpg" alt="Scott Sampson photo">
+			</div>
 		</aside>
 	</main>
 	<footer>
-		<p>&copy; 2022, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+		<p>&copy; Due date: 4/15/2025, Sanid Dzigal</p>
 	</footer>
 </body>
 </html>
