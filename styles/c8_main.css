@@ -226,3 +226,9 @@ footer p {
 		background-color: #800000 !important;
 	}
 }
+
+@media only screen and (max-width: 250px) {
+	body{
+		font-size: 90%;
+	}
+}
